@@ -13,9 +13,10 @@
         "git-username": "aarontburn",
         "git-repo-name": "nexus-chrome-remote-desktop"
     },
+    "author-id": "683193056e5989838dcf772c",
     "link": "https://github.com/aarontburn/nexus-chrome-remote-desktop",
     "build": {
-        "build-version": 2,
+        "build-version": 3,
         "excluded": [
             "electron.ts"
         ],
