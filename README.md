@@ -1,16 +1,25 @@
-<h1 align="center">Nexus</h1>
-<h2 align="center">Webpage Module Template</h2>
+# Chrome Remote Desktop Standalone Application(ish)
+This is a module for Nexus to use Chrome Remote Desktop as a desktop application instead of having to use a web browser.
 
-<p align="center">
-	<img src="./repo-assets/256x256.png" alt="Nexus Logo" width="200" />
-</p>
 
-A template for [Nexus](https://github.com/aarontburn/nexus-core) to embed existing websites as a module.
+# Installation
+## Automatic Installation (Recommended)
+1. Install the latest release of Nexus at :
+   - https://www.nexus-app.net/ or 
+   - https://github.com/aarontburn/nexus-core/releases/latest
+2. Visit the Chrome Remote Desktop module marketplace page and press "Install to Nexus"
+3. When prompted, restart Nexus.
 
-## Getting Started
-To learn how to develop a module for Nexus, visit [Building Your First Module](https://github.com/aarontburn/nexus-core/blob/main/docs/getting_started/tutorial/BuildingYourFirstModule.md).
 
-## Examples
+## Manual Installation
+1. Install the latest release of Nexus at https://www.nexus-app.net/ or https://github.com/aarontburn/nexus-core/releases/latest
+2. Download the latest release of the Chrome Remote Desktop module at https://github.com/aarontburn/nexus-chrome-remote-desktop/releases/latest
+3. Keep the release as a `.zip`.
+4. Open Nexus and navigate to the settings and press "+ Import Module"
+5. Select the downloaded `.zip`
+6. When prompted, restart Nexus
 
-### [Nexus: Google Calendar](https://github.com/aarontburn/nexus-google-calendar)
-Embeds Google Calendar as a module, which is useful for people that use it as their primary calendar.
+# Screenshots
+![alt text](assets/image.png)
+
+![alt text](assets/image2.png)

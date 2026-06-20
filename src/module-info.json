@@ -1,13 +1,21 @@
 {
-    "name": "Sample Web Browser Module",
-    "id": "developer.Sample_Web_Module",
-    "author": "developer",
+    "name": "Chrome Remote Desktop",
+    "id": "aarontburn.Chrome_Remote_Desktop",
+    "author": "aarontburn",
     "version": "1.0.0",
-    "description": "A developer template to embed websites within Nexus.",
-    "platforms": ["win32", "linux", "darwin"],
-    "link": "https://github.com/aarontburn/nexus-template-webpage",
+    "description": "https://remotedesktop.google.com as a Nexus module.",
+    "platforms": [
+        "win32",
+        "linux",
+        "darwin"
+    ],
+    "git-latest": {
+        "git-username": "aarontburn",
+        "git-repo-name": "nexus-chrome-remote-desktop"
+    },
+    "link": "https://github.com/aarontburn/nexus-chrome-remote-desktop",
     "build": {
-        "build-version": 1,
+        "build-version": 2,
         "excluded": [
             "electron.ts"
         ],

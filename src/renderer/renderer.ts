@@ -10,16 +10,17 @@ window.ipc.onProcessEvent((eventType: string, data: any[]) => {
             // Create the webview
             const { userAgent, partition } = data[0];
 
-            const url: string = "https://www.nexus-app.net/develop/";
+            const url: string = "https://remotedesktop.google.com";
             const html: string = `
                 <webview 
                     allowpopups
                     src="${url}"
                     partition="${partition}" 
                     userAgent="${userAgent}"
+                    preload="./preload.js"
                 ></webview>
             `
-            document.getElementById("app").insertAdjacentHTML('beforeend', html);
+            document.getElementById("app")!.insertAdjacentHTML('beforeend', html);
             break;
         }
         default: {
